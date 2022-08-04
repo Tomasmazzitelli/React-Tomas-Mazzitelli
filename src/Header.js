@@ -1,16 +1,22 @@
+
+
+import Nav from "./Nav"
+
+
+
+
+
 function Header ()
 {
-    return(<header   id="header"> 
+    return(
+    <header   id="header"> 
 
-<h1   className="titulo">  Titulo</h1>
-
-<nav>
-    <a href="a">Link   </a>
-    <a href="a">Link   </a>
-</nav>
+<h1   className="titulo"> Pagina De Tomas</h1>
 
 
 
+
+<Nav   type="header"  >   </Nav>
     </header>
 
     )

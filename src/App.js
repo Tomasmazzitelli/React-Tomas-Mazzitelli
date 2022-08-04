@@ -1,16 +1,15 @@
 import Header from "./Header"
-
-
+import Nav from "./Nav"
+import Footer from "./Footer"
 function App(){
   return(
-<header>
+<>
+<Header></Header>
   <main>
     <h2>Home</h2>
   </main>
-  <footer>
-    <p>Footer</p>
-  </footer>
-</header>
+ <Footer test={true} nombre="Tomas" ></Footer>
+</>
   )
 }
 
